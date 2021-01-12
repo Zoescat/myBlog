@@ -65,3 +65,6 @@ UPDATE users SET name='xiaoweiba' WHERE admin=0;
 ALTER  TABLE users CHANGE id  id  INT UNSIGNED AUTO_INCREMENT;
 
 update `users` set `email`='742.94567682585test123@qq.com', `password`='123456', `admin`=null, `name`='testUpdate', `images`='dvdfbss', `created_at`=null where `id`=null;
+
+DELETE FROM users WHERE id=3;
+SELECT * FROM users
